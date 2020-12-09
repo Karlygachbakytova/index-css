@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    
+    
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav>a{
+    font-weight: bold;
+}
+nav ul{
+    list-style-type: none;
+    width: 867px;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 0 5px;
+    line-height: 80px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    border: 5px solid pink;
+    background-color: pink;
+}
+.name{
+    font-size: 30px;
+}
